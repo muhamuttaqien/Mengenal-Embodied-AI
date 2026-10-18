@@ -120,4 +120,4 @@ Mengenal-Embodied-AI/
 
 ---
 
-Repository ini dibuat sebagai pendamping praktis agar pembaca dapat mengikuti eksperimen yang dibahas di dalam buku secara lebih langsung.
+Repository ini dibuat sebagai pendamping praktis agar pembaca dapat mengikuti eksperimen yang dibahas di dalam buku secara langsung.
