@@ -90,16 +90,6 @@ cd Mengenal-Embodied-AI
 
 Setelah itu, masuk ke folder hands-on yang ingin dicoba. Setiap eksperimen dapat memiliki kebutuhan dependency yang berbeda, sehingga baca `README.md` dan `requirements.txt` pada folder terkait jika tersedia.
 
-Sebagai praktik yang disarankan, gunakan **virtual environment** terpisah agar dependency dari satu eksperimen tidak mengganggu eksperimen lain.
-
-Contoh:
-
-```bash
-python3 -m venv embodied-ai-env
-source embodied-ai-env/bin/activate
-python -m pip install --upgrade pip
-```
-
 Beberapa hands-on, terutama yang menggunakan simulator atau model AI berukuran besar, dapat membutuhkan GPU atau konfigurasi environment tambahan.
 
 ## Struktur Singkat
