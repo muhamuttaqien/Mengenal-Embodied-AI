@@ -2,8 +2,6 @@
 
 Repository ini merupakan materi pendamping untuk buku **Mengenal Embodied AI: Dari Teori, Simulasi hingga Robot Nyata**. Isinya mencakup gambar pendukung, kode hands-on, notebook, hasil eksperimen, serta panduan teknis yang melengkapi pembahasan di dalam buku.
 
-> **Status:** repository dan naskah buku masih dalam tahap pengembangan.
-
 ## Tentang Buku
 
 Buku ini memperkenalkan **Embodied AI** secara bertahap, mulai dari konsep dasar AI yang berinteraksi dengan dunia fisik, komponen robot, tantangan perception hingga manipulation, metode pengambilan keputusan, sampai penggunaan simulator untuk eksperimen robotika.
