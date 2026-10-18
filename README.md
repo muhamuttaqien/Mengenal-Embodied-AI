@@ -1,9 +1,5 @@
 # Mengenal Embodied AI: Dari Teori, Simulasi hingga Robot Nyata
 
-<p align="center">
-  <img src="Assets/Book%20Cover%20Embodied%20AI.png" alt="Cover buku Mengenal Embodied AI" width="420">
-</p>
-
 Repository ini merupakan materi pendamping untuk buku **Mengenal Embodied AI: Dari Teori, Simulasi hingga Robot Nyata**. Isinya mencakup gambar pendukung, kode hands-on, notebook, hasil eksperimen, serta panduan teknis yang melengkapi pembahasan di dalam buku.
 
 > **Status:** repository dan naskah buku masih dalam tahap pengembangan.
