@@ -8,8 +8,6 @@ Repository ini merupakan materi pendamping untuk buku **Mengenal Embodied AI: Da
 
 Buku ini memperkenalkan **Embodied AI** secara bertahap, mulai dari konsep dasar AI yang berinteraksi dengan dunia fisik, komponen robot, tantangan perception hingga manipulation, metode pengambilan keputusan, sampai penggunaan simulator untuk eksperimen robotika.
 
-Pendekatan yang digunakan berusaha menghubungkan **teori, intuisi, dan praktik**, sehingga pembaca tidak hanya memahami konsep, tetapi juga dapat mencoba implementasinya melalui hands-on yang tersedia di repository ini.
-
 ## Isi Repository
 
 Saat ini repository memuat lima bagian utama:
@@ -88,9 +86,7 @@ git clone https://github.com/muhamuttaqien/Mengenal-Embodied-AI.git
 cd Mengenal-Embodied-AI
 ```
 
-Setelah itu, masuk ke folder hands-on yang ingin dicoba. Setiap eksperimen dapat memiliki kebutuhan dependency yang berbeda, sehingga baca `README.md` dan `requirements.txt` pada folder terkait jika tersedia.
-
-Beberapa hands-on, terutama yang menggunakan simulator atau model AI berukuran besar, dapat membutuhkan GPU atau konfigurasi environment tambahan.
+Setelah itu, masuk ke folder hands-on yang ingin dicoba. Setiap eksperimen dapat memiliki kebutuhan dependency yang berbeda, sehingga baca `README.md` dan `requirements.txt` pada folder terkait jika tersedia. Beberapa hands-on, terutama yang menggunakan simulator atau model AI berukuran besar, dapat membutuhkan GPU atau konfigurasi environment tambahan.
 
 ## Struktur Singkat
 
