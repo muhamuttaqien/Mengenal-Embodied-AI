@@ -1,0 +1,11 @@
+# Numerical array operations.
+numpy
+
+# Image loading and saving.
+pillow
+
+# Tensor operations.
+torch
+
+# Optional plotting support for later exercises.
+matplotlib

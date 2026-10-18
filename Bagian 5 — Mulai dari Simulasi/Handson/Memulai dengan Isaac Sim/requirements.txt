@@ -1,0 +1,5 @@
+# NVIDIA package index for Isaac Sim.
+--extra-index-url https://pypi.nvidia.com
+
+# Isaac Sim 6.2 with all main packages and extension cache.
+isaacsim[all,extscache]==6.2.0.0

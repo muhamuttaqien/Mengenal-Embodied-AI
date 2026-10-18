@@ -1,0 +1,11 @@
+Python         : 3.12.3
+NumPy          : 2.5.4
+PyTorch        : 2.14.1+cu130
+Pillow         : 13.0.0
+Matplotlib     : 3.11.2
+CUDA available : True
+CUDA device    : NVIDIA GeForce RTX 4070 Ti SUPER
+
+Environment ready!
+
+Log saved to: /home/muhamuttaqien/Desktop/UTsukuba/Two Books/Mengenal Embodied AI - Dari Teori, Simulasi hingga Robot Nyata/Bagian 5 — Mulai dari Simulasi/Handson/Menyiapkan Development Environment/results/01_test_environment.log

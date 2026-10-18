@@ -1,0 +1,28 @@
+Test next-state MSE: 0.00000371
+
+Example predictions:
+
+State: [0.9519288  0.01205186]
+Action: [0.9304143  0.50588006]
+True next state: [1.         0.07839482]
+Predicted next state: [0.9976468  0.07906612]
+
+State: [0.60517687 0.4100297 ]
+Action: [ 0.97122115 -0.04494295]
+True next state: [0.80400467 0.3938289 ]
+Predicted next state: [0.80309856 0.39408547]
+
+State: [0.00574227 0.75088555]
+Action: [-0.6598144 -0.0492968]
+True next state: [0.         0.76700807]
+Predicted next state: [-5.096067e-04  7.682899e-01]
+
+State: [0.6284762  0.15257561]
+Action: [-0.45890522 -0.05679961]
+True next state: [0.5574029  0.13253294]
+Predicted next state: [0.5572336  0.13232805]
+
+State: [0.4306099  0.08191989]
+Action: [0.11977663 0.55922234]
+True next state: [0.4585329  0.18798673]
+Predicted next state: [0.45938876 0.18753427]

@@ -1,0 +1,20 @@
+# AI2-THOR / ManipulaTHOR simulator.
+ai2thor
+
+# Numerical operations.
+numpy
+
+# Deep learning framework for CNN + DQN.
+torch
+
+# Image resizing and saving.
+pillow
+
+# Training-curve visualization.
+matplotlib
+
+# Evaluation video recording.
+imageio[pyav,ffmpeg]
+
+# Progress bars.
+tqdm

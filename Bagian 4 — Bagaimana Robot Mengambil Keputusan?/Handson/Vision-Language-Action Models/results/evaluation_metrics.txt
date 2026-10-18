@@ -1,0 +1,3 @@
+Mini-VLA Evaluation
+Target-cell accuracy: 100.00%
+Gripper accuracy: 100.00%

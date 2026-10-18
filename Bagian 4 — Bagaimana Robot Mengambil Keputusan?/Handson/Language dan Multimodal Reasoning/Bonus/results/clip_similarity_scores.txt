@@ -1,0 +1,10 @@
+Image: person.jpg
+
+ Cosine Similarity | Relative Probability | Text Candidate
+----------------------------------------------------------------------------------------------------
+            0.2699 |               81.33% | a person standing near a laptop
+            0.2503 |               11.45% | a person with blue t-shirt holding a bottle
+            0.2452 |                6.93% | a person holding a cup
+            0.2132 |                0.28% | a bottle on a table
+            0.1536 |                0.00% | a dog running outside
+            0.1263 |                0.00% | a red car on the street

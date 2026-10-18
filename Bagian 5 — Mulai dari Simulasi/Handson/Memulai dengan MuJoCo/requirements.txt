@@ -1,0 +1,11 @@
+# Numerical operations.
+numpy
+
+# MuJoCo physics simulator.
+mujoco==3.9.0
+
+# Robot manipulation framework built on MuJoCo.
+robosuite==1.5.2
+
+# Optional progress display during data collection.
+tqdm

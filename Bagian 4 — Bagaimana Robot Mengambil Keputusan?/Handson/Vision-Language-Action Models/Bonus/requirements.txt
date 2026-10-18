@@ -1,0 +1,5 @@
+-r https://raw.githubusercontent.com/openvla/openvla/main/requirements-min.txt
+accelerate
+matplotlib
+numpy
+pillow

@@ -1,0 +1,11 @@
+OpenVLA 7-DoF Action Summary
+
+Δx      :  0.035000
+Δy      : -0.018000
+Δz      :  0.024000
+Δroll   :  0.012000
+Δpitch  : -0.020000
+Δyaw    :  0.008000
+gripper :  0.910000
+
+Note: axis/frame conventions and gripper semantics depend on the dataset/robot action convention.

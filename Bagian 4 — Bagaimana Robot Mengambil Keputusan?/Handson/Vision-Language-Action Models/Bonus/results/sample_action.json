@@ -1,0 +1,21 @@
+{
+  "note": "Illustrative action only; not produced by OpenVLA.",
+  "action_labels": [
+    "delta_x",
+    "delta_y",
+    "delta_z",
+    "delta_roll",
+    "delta_pitch",
+    "delta_yaw",
+    "gripper"
+  ],
+  "action": [
+    0.03500000014901161,
+    -0.017999999225139618,
+    0.024000000208616257,
+    0.012000000104308128,
+    -0.019999999552965164,
+    0.00800000037997961,
+    0.9100000262260437
+  ]
+}
