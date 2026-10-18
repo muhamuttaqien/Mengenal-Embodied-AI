@@ -118,20 +118,6 @@ Mengenal-Embodied-AI/
 └── Mengenal Embodied AI: Dari Teori, Simulasi hingga Robot Nyata.docx
 ```
 
-## Naskah Buku
-
-Versi kerja naskah utama juga tersedia di repository:
-
-**`Mengenal Embodied AI: Dari Teori, Simulasi hingga Robot Nyata.docx`**
-
-Karena buku masih dalam pengembangan, struktur folder, kode, gambar, dan naskah dapat terus diperbarui.
-
-## Penulis
-
-**Muhammad Angga Muttaqien, M.Eng.**
-
-Fokus pada Artificial Intelligence, Embodied AI, robot learning, Vision-Language-Action models, dan world models untuk robotika.
-
 ---
 
 Repository ini dibuat sebagai pendamping praktis agar pembaca dapat mengikuti eksperimen yang dibahas di dalam buku secara lebih langsung.
