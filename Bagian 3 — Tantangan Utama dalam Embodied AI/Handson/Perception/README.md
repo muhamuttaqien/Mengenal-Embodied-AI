@@ -4,7 +4,7 @@ Folder ini berisi contoh sederhana **robot perception menggunakan object detecti
 
 **Mengenal Embodied AI: Dari Teori, Simulasi hingga Robot Nyata**
 
-Hands-on ini menggunakan model pretrained **YOLO11n** untuk mendeteksi object dari dua sumber input:
+Hands-on ini menggunakan model pretrained **YOLO11n** untuk mendeteksi object dari dua sumber input. Kedua script menggunakan confidence threshold yang sama, yaitu `0.50`:
 
 ```text
 Image
@@ -38,7 +38,7 @@ Perception/
 ├── requirements.txt
 ├── README.md
 └── results/
-    ├── perception_image_result.jpg
+    ├── perception_result.jpg
     └── perception_camera_result.jpg
 ```
 
@@ -46,12 +46,44 @@ Folder `results/` akan dibuat otomatis ketika script dijalankan.
 
 ---
 
-## Menjalankan
+## Instalasi
 
-Pastikan environment Python sudah aktif dan dependency sudah terpasang:
+Buat dan aktifkan virtual environment:
 
 ```bash
+python -m venv embodied-ai
+source embodied-ai/bin/activate
+```
+
+Untuk Windows:
+
+```bash
+embodied-ai\Scripts\activate
+```
+
+Kemudian install dependency:
+
+```bash
+python -m pip install --upgrade pip
 pip install -r requirements.txt
+```
+
+Model `yolo11n.pt` tidak disimpan di repository. Ultralytics akan mengunduh model secara otomatis ketika script pertama kali dijalankan.
+
+---
+
+## Menjalankan
+
+Jalankan object detection dari image:
+
+```bash
+python perception_image_demo.py
+```
+
+Untuk webcam:
+
+```bash
+python perception_camera_demo.py
 ```
 
 ---
@@ -65,12 +97,6 @@ table.jpg
 ```
 
 di folder yang sama dengan script.
-
-Kemudian jalankan:
-
-```bash
-python perception_image_demo.py
-```
 
 Script akan:
 
@@ -113,12 +139,12 @@ karena OpenCV menggunakan urutan channel **Blue, Green, Red**.
 
 ---
 
-## Hasil — `perception_image_result.jpg`
+## Hasil — `perception_result.jpg`
 
 Hasil object detection disimpan ke:
 
 ```text
-results/perception_image_result.jpg
+results/perception_result.jpg
 ```
 
 Gambar ini merupakan image asli yang sudah diberi anotasi hasil YOLO.
@@ -165,12 +191,6 @@ Location + Semantic Class
 ---
 
 ## 2. Real-Time Object Detection dari Webcam
-
-Jalankan:
-
-```bash
-python perception_camera_demo.py
-```
 
 Script membuka webcam dan menjalankan YOLO pada setiap frame secara real-time.
 
@@ -262,7 +282,7 @@ Dengan demikian, kedua demo menghasilkan output visual yang dapat dibandingkan:
 
 ```text
 Static Image
-→ results/perception_image_result.jpg
+→ results/perception_result.jpg
 
 Webcam
 → results/perception_camera_result.jpg
