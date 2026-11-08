@@ -14,8 +14,8 @@ source "$ENV_NAME/bin/activate"
 # Upgrade pip inside the virtual environment.
 python -m pip install --upgrade pip
 
-# Install the packages listed in requirements-main.txt.
-pip install -r requirements-main.txt
+# Install the packages listed in requirements.txt.
+pip install -r requirements.txt
 
 # Print a blank line for readability.
 echo
