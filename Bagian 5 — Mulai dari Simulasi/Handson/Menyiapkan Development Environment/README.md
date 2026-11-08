@@ -22,7 +22,7 @@ Bagian_5_Development_Environment_v2/
 │   ├── 03_ai2thor_first_steps.py
 │   └── 04_isaacsim_first_steps.py
 ├── results/
-├── requirements-main.txt
+├── requirements.txt
 ├── setup_main_env.sh
 ├── setup_isaacsim_env.sh
 ├── .gitignore
@@ -76,7 +76,7 @@ source embodied-ai-env/bin/activate
 python -m pip install --upgrade pip
 
 # Memasang seluruh dependency utama.
-pip install -r requirements-main.txt
+pip install -r requirements.txt
 ```
 
 Kita juga menyediakan script otomatis:
@@ -99,7 +99,7 @@ REM Memperbarui pip.
 python -m pip install --upgrade pip
 
 REM Memasang dependency utama.
-pip install -r requirements-main.txt
+pip install -r requirements.txt
 ```
 
 Jika environment berhasil aktif, terminal biasanya menampilkan:
@@ -283,7 +283,7 @@ Saat pertama kali digunakan, AI2-THOR dapat mengunduh build simulator yang diper
 
 Isaac Sim memiliki dependency dan runtime yang lebih kompleks, sehingga pada buku ini kita menempatkannya pada environment terpisah.
 
-Untuk instalasi Python-package workflow, gunakan Python yang kompatibel dengan versi Isaac Sim yang sedang dipakai. Dokumentasi Isaac Sim terbaru menggunakan Python 3.12 untuk instalasi Python-package.
+Untuk instalasi Python-package workflow pada repository ini, gunakan Python 3.12 yang kompatibel dengan Isaac Sim 6.2.
 
 Contoh:
 
@@ -298,7 +298,7 @@ source isaacsim-env/bin/activate
 python -m pip install --upgrade pip
 
 # Memasang Isaac Sim dan extension cache dari NVIDIA PyPI.
-pip install "isaacsim[all,extscache]" --extra-index-url https://pypi.nvidia.com
+pip install "isaacsim[all,extscache]==6.2.0.0" --extra-index-url https://pypi.nvidia.com
 ```
 
 Atau jalankan:
@@ -430,7 +430,7 @@ Kemudian install ulang dependency:
 
 ```bash
 # Memasang dependency dari requirements file.
-pip install -r requirements-main.txt
+pip install -r requirements.txt
 ```
 
 ### AI2-THOR tidak membuka window
