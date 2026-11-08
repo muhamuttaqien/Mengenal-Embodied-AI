@@ -1,4 +1,4 @@
 torch
 transformers
-pillow
+pillow<13
 matplotlib
