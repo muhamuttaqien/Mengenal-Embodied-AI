@@ -293,6 +293,14 @@ results/
 
 ---
 
+# Environment
+
+Gunakan dependency pada `requirements.txt` di folder Bonus. Repository ini tidak lagi mengambil `requirements-min.txt` dari branch `main` OpenVLA agar versi dependency tidak berubah tanpa sengaja.
+
+Untuk Google Colab, gunakan runtime GPU dan jalankan notebook yang sudah disiapkan. Untuk penggunaan lokal, Python 3.11 atau 3.12 lebih aman dibanding Python 3.13 karena kompatibilitas package vision dan quantization dapat berubah.
+
+---
+
 # Hardware
 
 OpenVLA-7B adalah model besar.
