@@ -30,7 +30,7 @@ source "$ENV_NAME/bin/activate"
 python -m pip install --upgrade pip
 
 # Install Isaac Sim and extension caches from NVIDIA PyPI.
-pip install "isaacsim[all,extscache]" --extra-index-url https://pypi.nvidia.com
+pip install "isaacsim[all,extscache]==6.2.0.0" --extra-index-url https://pypi.nvidia.com
 
 # Print a blank line for readability.
 echo
