@@ -43,7 +43,7 @@ Folder `results/` akan dibuat otomatis ketika script dijalankan.
 
 ---
 
-## Menjalankan
+## Instalasi
 
 Buat dan aktifkan virtual environment:
 
@@ -64,6 +64,10 @@ Kemudian install dependency:
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
+
+---
+
+## Menjalankan
 
 Jalankan demo:
 
